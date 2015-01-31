@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_utama"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context=".Menu_utama" >
+    
+    <ImageButton 
+        android:id="@+id/Btn_abjad"
+         android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:onClick="btn_abjad_Clicked"
+        android:src="@drawable/tombol_huruf"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        />
+    
+    <ImageButton 
+        android:id="@+id/Btn_angka"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:onClick="btn_angka_Clicked"
+        android:src="@drawable/tombol_angka"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/Btn_abjad"
+        />
+    
+    <ImageButton 
+        android:id="@+id/Btn_lagu"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:onClick="btn_lagu_Clicked"
+        android:src="@drawable/tombol_lagu"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/Btn_angka"
+        />
+    
+        <ImageButton 
+        android:id="@+id/Btn_cerita"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:onClick="btn_cerita_Clicked"
+        android:src="@drawable/tombol_cerita"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/Btn_lagu"
+        />
+        
+        <ImageButton 
+        android:id="@+id/Btn_about"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:onClick="btn_about_Clicked"
+        android:src="@drawable/tombol_about"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/Btn_cerita"
+        />
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anak Kartika</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_utama">Menu Kartika</string>
+    <string name="title_activity_menu_abjad">Mari Mengenal Huruf</string>
+    <string name="title_activity_a">Aa</string>
+    <string name="title_activity_b">Bb</string>
+    <string name="title_activity_c">Cc</string>
+    <string name="title_activity_d">Dd</string>
+    <string name="title_activity_e">Ee</string>
+    <string name="title_activity_f">Ff</string>
+    <string name="title_activity_g">Gg</string>
+    <string name="title_activity_h">Hh</string>
+    <string name="title_activity_i">Ii</string>
+    <string name="title_activity_j">Jj</string>
+    <string name="title_activity_k">Kk</string>
+    <string name="title_activity_l">Ll</string>
+    <string name="title_activity_m">Mm</string>
+    <string name="title_activity_n">Nn</string>
+    <string name="title_activity_o">Oo</string>
+    <string name="title_activity_p">Pp</string>
+    <string name="title_activity_q">Qq</string>
+    <string name="title_activity_r">Rr</string>
+    <string name="title_activity_s">Ss</string>
+    <string name="title_activity_t">Tt</string>
+    <string name="title_activity_u">Uu</string>
+    <string name="title_activity_v">Vv</string>
+    <string name="title_activity_w">Ww</string>
+    <string name="title_activity_x">Xx</string>
+    <string name="title_activity_y">Yy</string>
+    <string name="title_activity_z">Zz</string>
+    <string name="title_activity_about">Inilah Saya</string>
+    <string name="title_activity_menu_lagu">Lagu Anak</string>
+    <string name="title_activity_menu_angka">Mari Mengenal Angka</string>
+    <string name="title_activity_lagu_pelangi">Pelangi</string>
+    <string name="title_activity_lagu_burung_kutilang">Burung Kutilang</string>
+    <string name="title_activity_lagu_cicak">Cicak</string>
+    <string name="title_activity_lagu_naik_delman">Naik Delman</string>
+    <string name="title_activity_lagu_topi">Topi</string>
+    <string name="title_activity_cerita">Cerita</string>
+
+</resources>

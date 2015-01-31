@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_lagu"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context=".Menu_lagu" >
+
+    <ImageButton 
+        android:id="@+id/Btn_lagu1"
+        android:layout_width="186dp"
+        android:layout_height="64dp"
+        android:onClick="btn_lagu1_Clicked"
+        android:src="@drawable/item_lagu_1"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        />
+    
+    <ImageButton 
+        android:id="@+id/Btn_lagu2"
+        android:layout_width="186dp"
+        android:layout_height="64dp"
+        android:onClick="btn_lagu2_Clicked"
+        android:src="@drawable/item_lagu_2"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:layout_below="@+id/Btn_lagu1"
+        android:adjustViewBounds="true"
+        />
+    
+    <ImageButton 
+        android:id="@+id/Btn_lagu3"
+        android:layout_width="186dp"
+        android:layout_height="64dp"
+        android:onClick="btn_lagu3_Clicked"
+        android:src="@drawable/item_lagu_3"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:layout_below="@+id/Btn_lagu2"
+        android:adjustViewBounds="true"
+        />
+    
+    <ImageButton 
+        android:id="@+id/Btn_lagu4"
+        android:layout_width="186dp"
+        android:layout_height="64dp"
+        android:onClick="btn_lagu4_Clicked"
+        android:src="@drawable/item_lagu_4"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:layout_below="@+id/Btn_lagu3"
+        android:adjustViewBounds="true"
+        />
+    
+    <ImageButton 
+        android:id="@+id/Btn_lagu5"
+        android:layout_width="186dp"
+        android:layout_height="64dp"
+        android:onClick="btn_lagu5_Clicked"
+        android:src="@drawable/item_lagu_5"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@null"
+        android:layout_below="@+id/Btn_lagu4"
+        android:adjustViewBounds="true"
+        />
+
+    </RelativeLayout>

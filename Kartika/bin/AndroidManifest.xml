@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kartika"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu_utama"
+            android:label="@string/title_activity_menu_utama" >
+        </activity>
+        <activity
+            android:name=".Menu_abjad"
+            android:label="@string/title_activity_menu_abjad" >
+        </activity>
+        <activity
+            android:name=".AActivity"
+            android:label="@string/title_activity_a" >
+        </activity>
+        <activity
+            android:name=".BActivity"
+            android:label="@string/title_activity_b" >
+        </activity>
+        <activity
+            android:name=".CActivity"
+            android:label="@string/title_activity_c" >
+        </activity>
+        <activity
+            android:name=".DActivity"
+            android:label="@string/title_activity_d" >
+        </activity>
+        <activity
+            android:name=".EActivity"
+            android:label="@string/title_activity_e" >
+        </activity>
+        <activity
+            android:name=".FActivity"
+            android:label="@string/title_activity_f" >
+        </activity>
+        <activity
+            android:name=".GActivity"
+            android:label="@string/title_activity_g" >
+        </activity>
+        <activity
+            android:name=".HActivity"
+            android:label="@string/title_activity_h" >
+        </activity>
+        <activity
+            android:name=".IActivity"
+            android:label="@string/title_activity_i" >
+        </activity>
+        <activity
+            android:name=".JActivity"
+            android:label="@string/title_activity_j" >
+        </activity>
+        <activity
+            android:name=".KActivity"
+            android:label="@string/title_activity_k" >
+        </activity>
+        <activity
+            android:name=".LActivity"
+            android:label="@string/title_activity_l" >
+        </activity>
+        <activity
+            android:name=".MActivity"
+            android:label="@string/title_activity_m" >
+        </activity>
+        <activity
+            android:name=".NActivity"
+            android:label="@string/title_activity_n" >
+        </activity>
+        <activity
+            android:name=".OActivity"
+            android:label="@string/title_activity_o" >
+        </activity>
+        <activity
+            android:name=".PActivity"
+            android:label="@string/title_activity_p" >
+        </activity>
+        <activity
+            android:name=".QActivity"
+            android:label="@string/title_activity_q" >
+        </activity>
+        <activity
+            android:name=".RActivity"
+            android:label="@string/title_activity_r" >
+        </activity>
+        <activity
+            android:name=".SActivity"
+            android:label="@string/title_activity_s" >
+        </activity>
+        <activity
+            android:name=".TActivity"
+            android:label="@string/title_activity_t" >
+        </activity>
+        <activity
+            android:name=".UActivity"
+            android:label="@string/title_activity_u" >
+        </activity>
+        <activity
+            android:name=".VActivity"
+            android:label="@string/title_activity_v" >
+        </activity>
+        <activity
+            android:name=".WActivity"
+            android:label="@string/title_activity_w" >
+        </activity>
+        <activity
+            android:name=".XActivity"
+            android:label="@string/title_activity_x" >
+        </activity>
+        <activity
+            android:name=".YActivity"
+            android:label="@string/title_activity_y" >
+        </activity>
+        <activity
+            android:name=".ZActivity"
+            android:label="@string/title_activity_z" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Menu_lagu"
+            android:label="@string/title_activity_menu_lagu" >
+        </activity>
+        <activity
+            android:name=".Menu_angka"
+            android:label="@string/title_activity_menu_angka" >
+        </activity>
+        <activity
+            android:name=".Lagu_pelangi"
+            android:label="@string/title_activity_lagu_pelangi" >
+        </activity>
+        <activity
+            android:name=".Cerita"
+            android:label="@string/title_activity_cerita" >
+        </activity>
+        <activity
+            android:name=".Lagu_burung_kutilang"
+            android:label="@string/title_activity_lagu_burung_kutilang" >
+        </activity>
+        <activity
+            android:name=".Lagu_cicak"
+            android:label="@string/title_activity_lagu_cicak" >
+        </activity>
+        <activity
+            android:name=".Lagu_naik_delman"
+            android:label="@string/title_activity_lagu_naik_delman" >
+        </activity>
+        <activity
+            android:name=".Lagu_topi"
+            android:label="@string/title_activity_lagu_topi" >
+        </activity>
+    </application>
+
+</manifest>
